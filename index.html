@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой ТИРЛИСТИЩЕ</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/theme.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <h2>Game Tier List</h2>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Поиск игр...">
+            </div>
+            <button class="theme-toggle">
+                <span class="theme-icon">🌙</span>
+                <span class="theme-text">Тёмная тема</span>
+            </button>
+        </nav>
+        
+        <h1>My Game Tier List</h1>
+        
+        <div class="tier-container">
+            <div class="tier s-tier">
+                <div class="tier-label">S</div>
+                <div class="tier-games">
+                    <a href="games/elden-ring.html" class="game-card">
+                        <img src="images/elden-ring-icon.png" alt="Elden Ring">
+                        <div class="game-tooltip">
+                            Elden Ring - захватывающая ролевая игра в открытом мире от FromSoftware. Исследуйте огромный мир и сразитесь с эпическими боссами.
+                        </div>
+                    </a>
+                    <a href="games/botw.html" class="game-card">
+                        <img src="images/botw-icon.jpg" alt="Breath of the Wild">
+                        <div class="game-tooltip">
+                            The Legend of Zelda: Breath of the Wild - революционная игра с открытым миром, где вы исследуете королевство Хайрул.
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tier a-tier">
+                <div class="tier-label">A</div>
+                <div class="tier-games">
+                    <a href="games/god-of-war.html" class="game-card">
+                        <img src="images/god-of-war-icon.jpg" alt="God of War">
+                        <div class="game-tooltip">
+                            God of War - эпическое приключение о Кратосе и его сыне в мире скандинавской мифологии.
+                        </div>
+                    </a>
+                    <a href="games/rdr2.html" class="game-card">
+                        <img src="images/rdr2-icon.jpg" alt="Red Dead Redemption 2">
+                        <div class="game-tooltip">
+                            Red Dead Redemption 2 - захватывающая история о жизни банды Ван дер Линде в эпоху Дикого Запада.
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tier b-tier">
+                <div class="tier-label">B</div>
+                <div class="tier-games">
+                    <!-- Add more games here -->
+                </div>
+            </div>
+            <div class="tier c-tier">
+                <div class="tier-label">C</div>
+                <div class="tier-games">
+                    <!-- Add more games here -->
+                </div>
+            </div>
+            <div class="tier d-tier">
+                <div class="tier-label">D</div>
+                <div class="tier-games">
+                    <!-- Add more games here -->
+                </div>
+            </div>
+            <div class="tier f-tier">
+                <div class="tier-label">F</div>
+                <div class="tier-games">
+                    <!-- Add more games here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

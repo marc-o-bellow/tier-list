@@ -1,0 +1,32 @@
+/* Light theme styles */
+body.light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+body.light-theme .navbar,
+body.light-theme .tier {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+body.light-theme .game-card {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+body.light-theme .search-input {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+body.light-theme h1 {
+    color: #333;
+}
+
+body.light-theme .theme-toggle {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ddd;
+} 
